@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Portfolio</title>
+    <meta name="google-site-verification" content="HwFdnNTQm4bX5Se151EnNuH0JDwU5eFbTVoDjp1EBrk" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Geoffrey Dubois">
+    <meta name="description" content="Geoffrey Dubois, Développeur, Développeur Web, autodidacte">
+    <meta name="keywords" content="Développeur, Integrateur, Codeur, Web, Développeur Web, HTML, CSS, Javascript, JQuery, Java, SQL, Xml">
+
+    <!-- Appel de la police google font -->
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700' rel='stylesheet' type='text/css'>
+
+    <!-- Appel css -->
+    <link rel="stylesheet" type="text/css" href="css/styles.css"/>
+    <link rel="stylesheet" type="text/css" href="css/responsive.css"/>
+    <link rel="stylesheet" type="text/css" href="css/bg_fullscreen.css"/>
+
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+
+    <!-- Appel js -->
+    <script type="text/javascript" src="js/jquery-1.3.2.min.js"></script>
+    <script type="text/javascript" src="js/bg_fullscreen.js"></script>
+    <script type="text/javascript" src="js/opacity_img.js"></script>
+    <script type="text/javascript" src="js/filtre_folio.js"></script>
+    <script type="text/javascript" src="js/return_top.js"></script>
+    <script type="text/javascript" src="js/fix.js"></script>
+</head>
+<body>
+
+<!-- Debut Images arrière plan-->
+<ul class="cb-slideshow">
+    <li>
+        <span>Image 01</span>
+    </li>
+    <li>
+        <span>Image 02</span>
+    </li>
+    <li>
+        <span>Image 03</span>
+    </li>
+    <li>
+        <span>Image 04</span>
+    </li>
+    <li>
+        <span>Image 05</span>
+    </li>
+    <li>
+        <span>Image 06</span>
+    </li>
+</ul>
+<!-- Fin Images arrière plan-->
+
+<!-- Debut Conteneur-->
+<div id="menu_content">
+    <!-- Debut menu-->
+    <div id="menu">
+        <div id="logo" class="mb30">
+            <a href="accueil" title="Dubois Geoffrey developpeur web"><img src="images/logo.png" title="Dubois Geoffrey developpeur web" alt="Dubois Geoffrey developpeur web"/></a>
+        </div>
+        <!-- Debut items-->
+        <ul>
+            <li ><a href="accueil" title="presentation">Présentation</a><br><span> Venez découvrir un petit bout de moi</span></li>
+            <li><a href="cv" title="cv">Mon CV</a><br><span> Venez découvrir mon expérience</span></li>
+            <li><a href="parcours" title="parcours">Mon Parcours</a><br><span> Venez découvrir mon parcours</span></li>
+            <li  class="active" ><a href="portfolio" class="active"  title="portfolio">Portfolio</a><br><span> Venez découvrir mon portfolio</span></li>
+            <li><a href="contact" title="contact">Contact</a><br><span> Contactez moi</span></li>
+        </ul>
+        <!-- Fin items-->
+
+        <!-- Debut reseau sociaux-->
+        <div id="reseau">
+            <!-- Appel du js opacity_img -->
+            <div class="miniGallery">
+                <a href="#" title="linkedin"><img src="images/ico_in.png" title="linkedin" alt="profil dubois geoffrey linkedin"/></a>
+                <a href="#" title="viadeo"><img src="images/ico_viadeo.png" title="viadeo" alt="profil dubois geoffrey viadeo"/></a>
+            </div>
+        </div>
+        <!-- Fin reseau sociaux-->
+
+    </div>
+    <!-- Fin menus-->
+</div>
+<!-- Fin Conteneur-->
+
+<!-- Debut Conteneur-->
+    <div id="content">
+        <!-- Debut main-->
+        <div id="main">
+            <h1 class="titre_web">Dubois Geoffrey - Développeur Web</h1>
+            <hr>
+            <div class="ariane">
+                Vous etes ici : <a href="#" title="">Home</a> > Portfolio
+            </div>
+            <h2 class="nuancier mt15">Voici mes <span class="bleu">réalisations</span></h2>
+            <p class="mt15">Venez découvrir tout mes projets que j'ai pu réaliser à ce jour. M'intéréssant à plusieurs technologies web, vous allez pouvoir constater mon niveau dans differents domaine(Html/css, Javascript, Php, CMS, etc) </p>
+            <hr class="hr-2">
+
+            <!-- Debut portfolio-->
+            <!-- Debut filter-->
+                <div id="filter">
+                    <!-- Appel filter_folio.js ligne 11-->
+                    <ul id="portfolio-filter">
+                        <!-- Catégorie-->
+                        <li><a href="#js" title="javascript" rel="javascript">Javascript</a> </li>
+                        <li><a href="#php" title="php" rel="php">Php</a> </li>
+                        <li><a href="#wordpress" title="wordpress" rel="wordpress">Wordpress</a> </li>
+                        <li><a href="#all" title="all" rel="all" class="allcats">Afficher tout</a> </li>
+                    </ul>
+                </div>
+            <!-- Fin filter-->
+            <!-- Debut fiche-->
+            <!-- Appel opacity_img.js ligne 6-->
+                <div class="miniGallery">
+                    <ul id="portfolio-list">
+                        <!-- creation de class dans chaque li pour filtrer-->
+                        <li class="wordpress">
+                            <p>Projet 1: Delicious Meals (Site Actif)</p>
+                            <a href="http://www.dubois-geoffrey.fr/deliciousMeals/"><img src="images/screenshot.png" alt="" title=""/><h4>Restauration Canadienne avec Worpress</h4></a>
+                        </li>
+                        <li class="js">
+                            <p>Projet 2: Jeu Régions de France ? (Site Actif)</p>
+                            <a href="http://www.dubois-geoffrey.fr/map/"><img src="images/map.jpg" alt="" title=""/><h4>Connaissez-vous vos Régions de France</h4></a>
+                        </li>
+                        <li class="php">
+                            <p>Projet 3: php (En Cours)</p>
+                            <a href="#"><img src="images/03.jpg" alt="" title=""/><h4>Description projet 3</h4></a>
+                        </li>
+                        <li class="wordpress">
+                            <p>Projet 4: wordpress</p>
+                            <a href="#"><img src="images/05.jpg" alt="" title=""/><h4>Description projet 4</h4></a>
+                        </li>
+                    </ul>
+                </div>
+            <!-- Fin fiche-->
+
+            <!-- Fin portfolio-->
+        </div>
+        <!-- Fin main-->
+    </div>
+    <!-- Fin Conteneur-->
+
+    <!-- Debut footer-->
+    <div id="footer">
+        <div class="copyright">
+            Dubois Geoffrey - Développeur Web - 2015
+        </div>
+        <div id="return_top">
+            <a href="#menu">Retour en haut de page <img src="images/ico_return.png" alt="" title=""/></a>
+        </div>
+    </div>
+    <!-- Fin footer-->
+</body>
+</html>

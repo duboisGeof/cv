@@ -1,0 +1,430 @@
+/* Résolution entre 1025px et 1280px
+/* ----------------------------------------------------------------*/
+
+
+
+@media screen and (min-width: 1025px) and (max-width: 1280px){
+    /* Menus
+    /* ----------------------------------------------------------------*/
+    #menu_content{
+        left:10px;
+    }
+
+    /* Content
+    /* ----------------------------------------------------------------*/
+    #content{
+        width: 665px;
+        left: 285px;
+    }
+
+    /* Fiche
+    /* ----------------------------------------------------------------*/
+    #portfolio-list li a{
+        width: 211px;
+        height: 140px;
+    }
+
+    #portfolio-list li p{
+        font-size: 12px;
+        width: 211px;
+        height: 20px;
+        background: url(../images/bg_title_fiche.png) repeat-y center top;
+        line-height: 20px;
+    }
+
+    #portfolio-list li img{
+        width: 211px;
+        height: 140px;
+    }
+
+    #portfolio-list li h4{
+        font-size: 13px;
+        padding: 50px 15px 15px 15px;
+    }
+
+    /* Footer
+    /* ----------------------------------------------------------------*/
+    .copyright{
+        padding: 15px 0 15px 290px;
+        font-size: 13px;
+    }
+
+    #return_top{
+        margin-left: 364px;
+        font-size: 13px;
+    }
+
+    /* cv
+    /* ----------------------------------------------------------------*/
+    .contenue
+    {
+        width:643px;
+    }
+
+    .titre{
+        width: 633px;
+    }
+
+    .contenue2{
+        width: 663px;
+    }
+
+    .colonne1{
+        width: 300px;
+    }
+
+    #main .projet h1{
+        font-size: 15px;
+    }
+
+    .mb85{
+        margin-bottom: 0px;
+    }
+}
+
+/* Résolution entre 800px et 1024px
+/* Tablette retourné et petit pc
+/* ----------------------------------------------------------------*/
+@media screen and (min-width: 801px) and (max-width: 1024px) {
+    /* Menu
+    /* ----------------------------------------------------------------*/
+    #menu_content{
+        width: 200px;
+        position: relative;
+        left: 10px;
+        float: left;
+    }
+
+    #menu{
+        width: 200px;
+    }
+
+    #menu span{
+        display: none;
+    }
+
+    #menu ul{
+        padding-left: 45px;
+        margin-bottom: 40px;
+    }
+
+    #menu li{
+        width: 100px;
+        padding: 10px 0;
+    }
+
+    #menu li a{
+        font-size: 15px;
+    }
+
+    /* Contenue
+    /* ----------------------------------------------------------------*/
+    #content{
+        position: absolute;
+        width: 490px;
+        left: 220px;
+    }
+
+    .mb85{
+        margin-bottom: 0px;
+    }
+
+    /* cv
+    /* ----------------------------------------------------------------*/
+    .contenue
+    {
+        width:470px;
+    }
+
+    .titre{
+        width: 457px;
+    }
+
+    .contenue2{
+        width: 490px;
+    }
+
+    .colonne1{
+        width: 94%;
+    }
+
+    .colonne2{
+        width: 100%;
+    }
+
+
+    #main .projet h1{
+        font-size: 15px;
+    }
+
+    /* Fiche
+    /* ----------------------------------------------------------------*/
+
+    #portfolio-list li{
+        width: 100%;
+        margin-right: 0px;
+        margin-bottom: 10px;
+    }
+
+    #portfolio-list li a{
+        width: 100%;
+        height: 100%;
+    }
+
+    #portfolio-list li p{
+        background: url(../images/bg_title_fiche.png) repeat-y center top;
+    }
+
+    #portfolio-list li img{
+        width: 100%;
+        height: auto;
+    }
+
+    #portfolio-list li h4{
+        font-size: 13px;
+        padding: 50px 15px 50px 0;
+    }
+
+    /* Footer
+    /* ----------------------------------------------------------------*/
+    #footer{
+        display: none;
+    }
+
+}
+
+/* Résolution inférieur à 800px
+/* ----------------------------------------------------------------*/
+@media screen and (max-width: 800px){
+    /* Menu
+    /* ----------------------------------------------------------------*/
+   #menu_content{
+       width: 100%;
+       position: relative;
+       top: 0;
+       left: 0px;
+       padding: 15px 0;
+       float: left;
+   }
+
+    #menu{
+        width: 100%;
+        height: 105px;
+        text-align: center;
+        float: left;
+        font-size: 12px;
+    }
+
+    #menu span{
+        display: none;
+    }
+
+    #menu ul{
+        margin-top: 25px;
+        padding-left: 120px;
+        margin-bottom: 40px;
+    }
+
+    #menu li{
+        width: 100px;
+        padding: 10px 0;
+        float: left;
+        margin-right: 10px;
+    }
+
+    #menu li a{
+        font-size: 15px;
+    }
+
+    #logo{
+        display: none;
+    }
+
+    #reseau{
+        width: 100%;
+        float: left;
+    }
+
+    /* Content
+    /* ----------------------------------------------------------------*/
+    #content{
+        left: 0;
+        width: 100%;
+        top:10px;
+        float: left;
+    }
+
+    /* Main
+    /* ----------------------------------------------------------------*/
+    #main{
+        padding: 10px 0px 10px 0px;
+        margin-bottom: 30px;
+    }
+
+    /* Titre
+/* ----------------------------------------------------------------*/
+    #main h1{
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    #main h2{
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    .nuancier{
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    .profil{
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    .xp{
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    .parcours{
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    .contact{
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    hr, .hr-2{
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    .ariane{
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    p{
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    .photo_left{
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    #footer{
+        display: none;
+    }
+
+    /* Fiche
+    /* ----------------------------------------------------------------*/
+
+    #portfolio-list li{
+        width: 100%;
+        margin-right: 0px;
+        margin-bottom: 30px;
+    }
+
+    #portfolio-list li a{
+        width: 100%;
+        height: 100%;
+    }
+
+    #portfolio-list li p{
+        background: url(../images/bg_title_fiche.png) repeat-y center top;
+    }
+
+    #portfolio-list li img{
+        width: 100%;
+        height: auto;
+    }
+
+    #portfolio-list li h4{
+        font-size: 13px;
+        padding: 50px 15px 50px 0px;
+    }
+
+    /* cv
+    /* ----------------------------------------------------------------*/
+
+
+    .colonne1{
+        width: 94%;
+    }
+
+    .colonne2{
+        width: 100%;
+    }
+
+    /* Footer
+    /* ----------------------------------------------------------------*/
+    #footer{
+        display: none;
+    }
+}
+
+/* Résolution entre 0 et 480px
+/* smartphone
+/* ----------------------------------------------------------------*/
+@media screen and (min-width: 0px) and (max-width: 480px) {
+    /* Menu
+    /* ----------------------------------------------------------------*/
+    #menu ul{
+        padding-left: 0px;
+        width: 100%;
+    }
+
+    #menu li{
+        width: 100%;
+        padding: 10px 0px;
+        margin-bottom: 10px;
+    }
+
+    #menu{
+        height: auto;
+    }
+
+    /* cv
+   /* ----------------------------------------------------------------*/
+    .contenue
+    {
+        width:95%;
+    }
+
+    .titre{
+        width: 90%;
+    }
+    .colonne1{
+        width: 90%;
+    }
+
+
+
+
+    .contenue2{
+        width: 98%;
+    }
+
+    .colonne2{
+        width: 99%;
+    }
+
+    .photo_left, .photo_right{
+        width: 150px;
+        height: 125px;
+    }
+
+    #main h2{
+        font-size: 12px;
+    }
+
+    .mb85{
+        margin-bottom: 0px;
+    }
+}
